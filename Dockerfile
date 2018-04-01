@@ -4,7 +4,7 @@ RUN apt-get update
 
 RUN  apt-get install apache2 -y
 
-ADD Blob /var/
+ADD Blob /var
 
 CMD apachectl -D FOREGROUND
 
