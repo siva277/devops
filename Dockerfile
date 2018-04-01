@@ -1,4 +1,8 @@
-FROM hshar/ubuntunew1212
+FROM ubuntu
+
+RUN apt-get update
+
+RUN sudo apt-get install apache2
 
 ADD Blob /var/www/html/
 
